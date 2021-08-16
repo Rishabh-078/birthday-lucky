@@ -10,7 +10,7 @@
 }
 
 body {
-    /* background-color:var(--primary-color); */
+    background-color:var(--primary-color);
     color: var(--primary-color);
 }
 
@@ -44,6 +44,11 @@ header {
     padding: 1rem;
     background-color: rgb(190, 185, 175);
     color: var(--secondary-color);
+}
+#privacy-head{
+    font-size:1.75rem;
+    font-weight: 900;
+    text-decoration: underline;
 }
 
 input {

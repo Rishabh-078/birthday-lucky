@@ -13,7 +13,8 @@ function outputResult(msg) {
 }
 
 privacyX.addEventListener("click", () => {
-    privacyBox.style.display = "none";
+    // privacyBox.style.display = "none";
+    privacyBox.style.visibility="hidden";
 })
 
 checkButton.addEventListener("click", inputCheck);
